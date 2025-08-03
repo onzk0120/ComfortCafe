@@ -1,2 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+header {
+    width: 90%;
+    padding: 15px 0;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+footer {
+    width: 100%;
+    background-color: #444;
+    text-align: center;
+    padding: 26px 0;
+    color: #fff;
+    border: 2px solid black;
+}
+}
 
+.main-nav {
+    display: flex;
+    list-style: none;
+    
+}
+
+.main-nav li a {
+    margin-left: 36px;
+    color: #1b0704;
+    border: 2px solid black;
+}
+
+.main-nav li a:hover {
+    color: #0ba;
+}
